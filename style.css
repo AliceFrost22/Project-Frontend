@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    margin: auto;
+  }
+
+body {
+    background-color: #fff;
+    }
+
+.logo {
+    height: 120px;
+    width: 120px;
+    position: absolute ;
+    left: 2%;
+    top: 4%;
+    }
+header.header {
+    display: block;
+    padding: 90px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+header.header h1 {
+    position: absolute;
+    left: 12%;
+    top:9%;
+    font-size: 42px;
+    }
+
+footer{
+    position:absolute; 
+    bottom: 5px; 
+    width: 99%;
+}
+h3{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:500;
+    font-size: 42px;
+    color:white;
+}
+p3{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:200;
+    font-size: 24px;
+    color:white;
+}
+#map{
+    width:100px;
+}
+.contact-container{
+    display: grid;
+    height: 550px;
+    padding-left: 30px;
+    bottom: 5px; 
+    border-color: #01a2df;
+    border: 5px;
+    background-image:url("images/Hyde Aero Tudor Works.jpg");
+    background-size:contain;
+    grid-template-areas: 
+        "header"
+        "1sidebar"
+        "2sidebar"
+        "3sidebar";
+    grid-gap: 5px;
+}
+.contact-item-1{
+    grid-area: header;
+}
+.contact-item-2{
+    grid-area: 1sidebar;
+}
+.contact-item-3{
+    grid-area: 2sidebar;
+}
+.contact-item-4{
+    grid-area: 3sidebar;
+    background-color: #000;
+    border-radius: 6px;
+}
+* {
+    box-sizing: border-box;
+  }
+    /* search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+
+.client.logo{
+    display:grid;
+    justify-content: right;
+    grid-template-columns: auto;
+}
+.client.info{
+    display:grid;
+    justify-content: left;
+    grid-template-columns: auto;
+}
